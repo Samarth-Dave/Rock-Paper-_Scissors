@@ -1,0 +1,71 @@
+*{
+    margin:0 ;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color:#432818;
+    color: #FFE6A7;
+}
+
+h1{
+    
+    background-color: #FFE6A7;
+    color:#432818 ;
+    height:5rem;
+    line-height:5rem;
+}
+
+
+.choices{
+   
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5rem;
+}
+
+.select{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select:hover{
+    
+    cursor: pointer;
+    border-radius: 50%;
+   background-color: gold;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;   /*  since without this the image are getting squished */
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap:5rem;
+}
+#User-score ,#comp-score{
+    font-size: 4rem;
+} 
+.msg-container{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#msg{
+    color: gold;
+  
+    display: inline;
+    margin: 10px;
+    font-size: 50px;
+}
